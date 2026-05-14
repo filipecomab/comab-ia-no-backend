@@ -3,14 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import os
 import json
-import chromadb
-from chromadb.utils import embedding_functions
+import math
+import numpy as np
 from groq import Groq
 import uvicorn
 
 app = FastAPI()
 
-# CORS — permite o frontend acessar
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -18,63 +17,79 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Configurações
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 REINDEX_PASSWORD = os.environ.get("REINDEX_PASSWORD", "comab@reindex2024")
-
-# ChromaDB — banco vetorial local
-chroma_client = chromadb.PersistentClient(path="./chroma_db")
-embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-    model_name="paraphrase-multilingual-MiniLM-L12-v2"
-)
-
-collection = chroma_client.get_or_create_collection(
-    name="mips",
-    embedding_function=embedding_fn
-)
+DB_FILE = "./mips_db.json"
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
-# Models
+# Banco simples em JSON
+def load_db():
+    if os.path.exists(DB_FILE):
+        with open(DB_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"chunks": [], "embeddings": []}
+
+def save_db(db):
+    with open(DB_FILE, "w", encoding="utf-8") as f:
+        json.dump(db, f, ensure_ascii=False)
+
+# Embedding via Groq (modelo gratuito)
+def get_embedding(text):
+    # Usando llama para gerar representação semântica via prompt
+    # Como Groq não tem endpoint de embedding, fazemos busca por similaridade textual simples
+    return text.lower()
+
+# Busca por similaridade textual simples (TF-IDF like)
+def buscar_chunks(pergunta, chunks, n=4):
+    palavras_pergunta = set(pergunta.lower().split())
+    scores = []
+    for i, chunk in enumerate(chunks):
+        palavras_chunk = set(chunk["texto"].lower().split())
+        intersecao = palavras_pergunta & palavras_chunk
+        score = len(intersecao) / (math.sqrt(len(palavras_pergunta)) * math.sqrt(len(palavras_chunk)) + 1e-9)
+        scores.append((score, i))
+    scores.sort(reverse=True)
+    return [chunks[i] for _, i in scores[:n] if scores[0][0] > 0]
+
+# Quebrar texto em chunks
+def chunk_text(texto, tamanho=400, overlap=50):
+    palavras = texto.split()
+    chunks = []
+    i = 0
+    while i < len(palavras):
+        chunk = " ".join(palavras[i:i+tamanho])
+        chunks.append(chunk)
+        i += tamanho - overlap
+    return chunks
+
 class PerguntaRequest(BaseModel):
     pergunta: str
 
 class ReindexRequest(BaseModel):
     senha: str
 
-# Função para quebrar texto em chunks
-def chunk_text(text, chunk_size=500, overlap=50):
-    words = text.split()
-    chunks = []
-    i = 0
-    while i < len(words):
-        chunk = " ".join(words[i:i+chunk_size])
-        chunks.append(chunk)
-        i += chunk_size - overlap
-    return chunks
-
-# Rota principal — responder perguntas
 @app.post("/perguntar")
 async def perguntar(req: PerguntaRequest):
     try:
-        # Buscar trechos relevantes no ChromaDB
-        results = collection.query(
-            query_texts=[req.pergunta],
-            n_results=4
-        )
-
-        if not results["documents"][0]:
+        db = load_db()
+        if not db["chunks"]:
             return {
                 "resposta": "Ainda não tenho MIPs indexados. Por favor, faça o upload dos manuais primeiro.",
                 "mip_consultado": None
             }
 
-        # Montar contexto com os trechos encontrados
-        contexto = "\n\n".join(results["documents"][0])
-        metadatas = results["metadatas"][0]
-        mip_fonte = metadatas[0].get("arquivo", "MIP") if metadatas else "MIP"
+        chunks_relevantes = buscar_chunks(req.pergunta, db["chunks"])
 
-        # Prompt para a IA
+        if not chunks_relevantes:
+            return {
+                "resposta": "Não encontrei informações sobre isso nos MIPs disponíveis.",
+                "mip_consultado": None
+            }
+
+        contexto = "\n\n".join([c["texto"] for c in chunks_relevantes])
+        mip_fonte = chunks_relevantes[0].get("arquivo", "MIP")
+
         prompt = f"""Você é o COMAB.IA-NO, assistente interno da COMAB Materiais de Construção.
 Responda de forma clara, amigável e direta, baseando-se APENAS nas informações dos MIPs abaixo.
 Se a resposta não estiver nos MIPs, diga que não encontrou essa informação nos manuais.
@@ -88,7 +103,6 @@ PERGUNTA DO COLABORADOR:
 
 RESPOSTA:"""
 
-        # Chamar a Groq API
         chat = groq_client.chat.completions.create(
             model="llama3-8b-8192",
             messages=[{"role": "user", "content": prompt}],
@@ -97,16 +111,11 @@ RESPOSTA:"""
         )
 
         resposta = chat.choices[0].message.content.strip()
-
-        return {
-            "resposta": resposta,
-            "mip_consultado": mip_fonte
-        }
+        return {"resposta": resposta, "mip_consultado": mip_fonte}
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Rota para upload e indexação de MIPs
 @app.post("/reindexar")
 async def reindexar(req: ReindexRequest):
     if req.senha != REINDEX_PASSWORD:
@@ -115,18 +124,12 @@ async def reindexar(req: ReindexRequest):
     try:
         mips_dir = "./mips"
         if not os.path.exists(mips_dir):
-            return {"status": "Nenhum MIP encontrado na pasta /mips"}
+            os.makedirs(mips_dir)
+            return {"status": "Pasta /mips criada. Adicione os arquivos .txt e reindexe novamente."}
 
-        # Limpar coleção atual
-        chroma_client.delete_collection("mips")
-        global collection
-        collection = chroma_client.get_or_create_collection(
-            name="mips",
-            embedding_function=embedding_fn
-        )
-
-        total_chunks = 0
-        arquivos_processados = []
+        db = {"chunks": []}
+        total = 0
+        arquivos = []
 
         for filename in os.listdir(mips_dir):
             if filename.endswith(".txt"):
@@ -135,32 +138,29 @@ async def reindexar(req: ReindexRequest):
                     texto = f.read()
 
                 chunks = chunk_text(texto)
+                for chunk in chunks:
+                    db["chunks"].append({
+                        "texto": chunk,
+                        "arquivo": filename.replace(".txt", "")
+                    })
 
-                ids = [f"{filename}_{i}" for i in range(len(chunks))]
-                metadatas = [{"arquivo": filename.replace(".txt", "")} for _ in chunks]
+                total += len(chunks)
+                arquivos.append(filename)
 
-                collection.add(
-                    documents=chunks,
-                    ids=ids,
-                    metadatas=metadatas
-                )
-
-                total_chunks += len(chunks)
-                arquivos_processados.append(filename)
-
+        save_db(db)
         return {
             "status": "Reindexação concluída!",
-            "arquivos": arquivos_processados,
-            "total_chunks": total_chunks
+            "arquivos": arquivos,
+            "total_chunks": total
         }
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Health check — para o UptimeRobot
 @app.get("/health")
 async def health():
-    return {"status": "ok", "mips_indexados": collection.count()}
+    db = load_db()
+    return {"status": "ok", "chunks_indexados": len(db.get("chunks", []))}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
