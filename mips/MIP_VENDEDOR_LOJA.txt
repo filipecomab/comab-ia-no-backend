@@ -1,0 +1,425 @@
+# MIP - VENDEDOR DE LOJA
+## COMAB Materiais de Construção
+### Código: MIP | Revisão: 07 | Data: 27/03/2026
+### Cargo: VENDEDOR
+### Responde ao: Supervisor Comercial
+
+---
+
+## RESUMO DO CARGO
+
+O Vendedor de Loja é responsável por:
+- Gerenciar seu login e equipamentos corporativos
+- Realizar o atendimento aos clientes seguindo o padrão COMAB
+- Utilizar o Mobile de Vendas e o sistema Winthor
+- Acompanhar pedidos do início ao fim
+- Manter a carteira de clientes e parceiros
+- Seguir as regras importantes do setor
+
+---
+
+## RESPONSABILIDADES GERAIS
+
+### Higiene e Apresentação Pessoal
+- Cabelo apresentável
+- Unhas feitas
+- Utilização de desodorante ou perfume
+- Não mascar chicletes
+- Calçados limpos em ótima condição de uso
+- Uso obrigatório do uniforme
+
+### Horários de Trabalho
+- Cumprir rigorosamente os horários de início e finalização do expediente
+- Respeitar o horário de intervalo com máximo de 1 hora
+
+### Manual Interno de Processos
+- Buscar estar sempre atualizado e seguir o MIP e o Manual de Diretrizes Organizacionais (MDO)
+- Ao perceber necessidade de atualização do MIP ou MDO, informar ao superior hierárquico
+- Ser comprometido com os valores da COMAB
+- Ser comprometido com a Cultura do Ótimo Dia e Ótima Tarde
+- Zelar pelos patrimônios da empresa
+- Manter organização no ambiente de trabalho
+
+### Postura Profissional
+- Orientação e foco para resultados
+- Competência em gestão de conflitos, crises e resolução de problemas
+- Competência em dar e receber feedback
+- Garantir altos níveis de satisfação dos clientes
+- Conhecer e estudar os produtos ofertados
+- Criar relações produtivas e de confiança com os clientes
+- Acompanhar as tendências do mercado
+- Seguir e atingir as metas de vendas semanalmente e mensalmente
+- Reportar à gerência comercial sobre qualquer situação emergencial
+
+### Requisitos do Cargo
+- Ensino médio completo
+- Não fumante
+- Experiência comprovada como Vendedor ou cargo similar
+- Compreensão básica dos princípios de vendas e atendimento ao cliente
+- Habilidade em negociações de compra e venda
+- Conhecimento básico do pacote Office, matemática e boa gramática
+- Histórico de superação de metas de vendas
+- Ótima habilidade interpessoal e de comunicação
+- Personalidade amigável e enérgica com foco no atendimento ao cliente
+- Capacidade de atuar sob pressão e resolver reclamações em tempo adequado
+
+---
+
+## PROCESSO 1: RESPONSÁVEL POR LOGIN E EQUIPAMENTOS
+
+### 1a. Login no Sistema Winthor
+- Ao chegar pela manhã, ligue o computador
+- A senha de acesso é: comab@2023 ou comab@2014
+- Acesse seu usuário no Winthor, disponibilizado pelo superior imediato
+- Tudo o que é feito no seu usuário fica registrado no sistema e é de sua responsabilidade
+- É expressamente proibido emprestar sua senha a outro colaborador — passível de desligamento imediato
+
+### 1b. Celular e WhatsApp Corporativo
+- É de sua inteira responsabilidade zelar pela integridade do celular corporativo
+- Manter um padrão de atendimento COMAB nas mensagens do WhatsApp
+- Em caso de afastamento ou férias, fale com seu superior para designar um responsável
+- Deixe o celular na loja carregando de um dia para o outro
+
+### 1c. Computador Corporativo
+- Manter o uso exclusivamente para fins da sua função
+- Manter informações pertinentes devidamente salvas e organizadas
+- Utilize com consciência
+
+---
+
+## PROCESSO 2: PADRÃO DE ATENDIMENTO COMAB
+
+### Recepção do Cliente
+- Ao identificar a chegada de um cliente, o vendedor deve prontamente se dirigir a ele com uma saudação amigável
+- Exemplo de saudação: "Ótimo dia! Meu nome é [Seu Nome]. Seja bem-vindo(a) à COMAB. Como posso te ajudar?"
+- Manter contato visual constante para demonstrar atenção e interesse
+- Após a saudação inicial, perguntar o nome do cliente para personalizar o atendimento
+
+### Escuta Ativa e Diagnóstico
+- Ouvir atentamente o cliente para entender suas necessidades e expectativas
+- Fazer perguntas específicas para diagnosticar a real necessidade do cliente
+- Exemplo: "Você está procurando pisos para área interna ou externa? Tem alguma cor ou estilo em mente?"
+- Diagnosticar: se o cliente quer piso para interno ou externo, faixa de preço, cerâmica ou porcelanato, cores em mente ou se precisa de sugestão
+- Ser proativo: leve a peça até o cliente
+- Oferecer ao cliente para ver a peça aplicada no ambiente usando a Ferramenta CRIA
+
+### Proposta de Soluções e Negociação
+- Oferecer soluções que atendam às necessidades do cliente usando o conhecimento sobre os produtos
+- Atender o cliente sempre com energia e comprometimento
+- Levar o cliente até os produtos e fornecer informações detalhadas sobre cada um
+- Perguntar se o cliente já possui orçamentos de concorrentes e, se possível, oferecer propostas mais vantajosas
+- Perguntar sobre a forma de pagamento preferida e ajustar a proposta conforme necessário
+- Em caso de dúvidas sobre preço ou desconto, acionar a supervisão
+
+### Fechamento e Acompanhamento
+- Concluir a venda, acompanhar o cliente até o caixa e oferecer suporte para dúvidas adicionais
+- Pedir ao cliente uma avaliação no Google para ajudar a melhorar os serviços
+- Caso o pedido não seja fechado no momento, fazer contato com o cliente o mais breve possível buscando a conversão através da quebra de objeções
+- Informar a supervisão o motivo do não fechamento
+
+---
+
+## PROCESSO 3: A AMPULHETA DE VENDAS E ACOMPANHAMENTO DO PEDIDO
+
+- Os vendedores têm como responsabilidade garantir a experiência do cliente do início ao fim do pedido
+- Acompanhar os pedidos até que o cliente receba os materiais em casa (quando for o caso)
+
+### Acompanhamento Diário de Pedidos
+- Realizar diariamente o acompanhamento dos pedidos já fechados, tanto entregas normais quanto Express
+- Utilizar a Rotina 335 do Winthor para acompanhamento
+- Se necessário, entrar em contato com o setor de expedição por telefone, WhatsApp ou pessoalmente
+- Em caso de vendas que necessitem transferências entre lojas: o vendedor é responsável por validar com a loja de origem a disponibilidade e solicitar a transferência, respeitando os prazos
+
+### Acompanhamento de Pedidos de Encomenda
+Verificar a posição do pedido no sistema:
+- L — Produto já chegou mas não foi separado
+- M — Produto já chegou e está em separação
+- F — Produto já saiu para o cliente
+
+---
+
+## PROCESSO 4: MANUTENÇÃO DA CARTEIRA DE CLIENTES E PARCEIROS
+
+- Analisar o perfil do cliente para verificar em qual fase da obra está e como está sua experiência após a compra
+- Entrar em contato semanalmente pelo canal que melhor se encaixar ao cliente para verificar necessidade de novos pedidos ou cotações
+- Entrar em contato com o cliente assim que for efetivada sua entrega, para verificar a experiência ou se há necessidade de auxílio
+
+### Visita Ativa a Clientes e Parceiros
+- Manter proximidade e relacionamento com clientes e parceiros em potencial através de:
+  - Visitas em obras
+  - Ligações ativas
+  - Rede de networking
+  - Participação em eventos do segmento
+
+---
+
+## PROCESSO 5: FERRAMENTA CRIA
+
+A Ferramenta CRIA permite simular peças cerâmicas aplicadas em ambientes — muito útil para que o cliente veja como ficará seu ambiente antes da compra.
+
+### O que a ferramenta simula:
+- Porcelanatos
+- Cerâmicas INOUT
+- Semigres
+
+### Como acessar:
+- Link: https://criadecor.com.br/login
+- Usuário e senha disponibilizados pela supervisão
+- Ao acessar, selecionar o ambiente, subir a foto que o cliente enviou e selecionar o modelo desejado — bastante intuitivo
+
+---
+
+## PROCESSO 6: MOBILE DE VENDAS
+
+### O que é o Mobile de Vendas?
+É uma ferramenta instalada no celular corporativo que permite realizar diversas funções diretamente pelo celular:
+- Tirar pedido
+- Consultar estoque e preço
+- Liberar pedido
+- Acompanhar pedidos
+- Cadastrar clientes
+
+Com essa ferramenta, o vendedor pode atender clientes de forma itinerante, digitando o pedido enquanto anda pela loja apresentando os produtos. Ao final, basta enviar o cliente direto para o caixa.
+
+### Como Cadastrar Clientes pelo Aplicativo
+1. Clicar em "+Cliente" no menu superior
+2. Digitar o CPF do cliente
+3. Se já possuir cadastro: uma mensagem será mostrada e será possível apenas cadastrar um novo endereço de entrega
+4. Se não tiver cadastro: os demais campos são liberados para preenchimento
+5. Preencher todos os campos e clicar em "Salvar"
+- O cadastro fica tanto no App quanto no Winthor automaticamente
+
+### Como Consultar Estoque pelo Aplicativo
+1. No menu superior, localizar a opção "Produtos"
+2. Para consultar um produto, digitar sua descrição, código, ou usar o leitor de código de barras (ícone ao lado da Lupa)
+3. Na coluna "Estoque", ver a quantidade disponível para venda em cada filial
+
+### Como Tirar Pedido pelo Aplicativo
+1. No menu superior, clicar em "Pedido"
+2. Clicar em "Cliente" e localizar o cliente por Nome, CPF ou Código
+3. Clicar em "+ ITEM" para começar a inserir itens
+4. Observar o estoque disponível na coluna da direita
+5. Clicar sobre o item, digitar a quantidade e clicar em "OK"
+6. Para excluir um item: clicar e segurar em cima dele
+7. Para alterar quantidade: alterar no primeiro campo abaixo do item
+8. Para alterar o tipo de entrega: clicar no campo da direita do item
+9. Clicar em "Cobrança:" e depois em "Plano" para indicar a forma de pagamento
+10. Colocar observações conforme necessidade e clicar em "Salvar"
+11. Produtos em promoção têm os novos preços aplicados automaticamente
+12. Ao salvar, confirmar e-mail e telefone do cliente
+13. Atenção à posição do pedido: se estiver com posição "B" (Bloqueado), a supervisão de vendas deve liberar antes do cliente ir para o caixa
+
+---
+
+## PROCESSO 7: SISTEMA WINTHOR
+
+### O que é o Winthor?
+Winthor é o sistema da loja. É utilizado quando o vendedor está negociando com clientes na mesa, usando o computador. O login e senha são fornecidos pela supervisão direta.
+
+### Como Cadastrar Clientes pelo Winthor (Rotina 302)
+1. Executar a Rotina 302 — Cadastro de Cliente
+2. Clicar em "Novo Registro"
+3. Preencher os seguintes dados:
+   - Nome completo
+   - CPF
+   - Data de nascimento
+   - Tipo de cliente: Pessoa Jurídica ou Física
+   - Telefone para contato
+   - E-mail
+   - Endereço
+   - Número do RCA do vendedor
+4. Clicar em "Gravar"
+
+### Como Tirar Pedidos pelo Winthor (Rotina 4116)
+1. Acessar a Rotina 4116
+2. Localizar o cliente por Código, CPF ou Nome
+3. Digitar seu RCA e em seguida login e senha de autenticação
+4. Selecionar "Venda Assistida" como "SIM"
+5. Selecionar o formato padrão do tipo de entrega
+6. Na tela do pedido, preencher a forma de pagamento escolhida pelo cliente
+7. Clicar em "Consulta de Preço (F6)" para inserir itens
+8. Localizar produtos por: Descrição (usando % como curinga), Código, Embalagem, Marca
+9. Selecionar o produto e pressionar "Enter"
+10. Na tela que se abre, verificar o estoque disponível em cada filial
+11. Preencher a quantidade e o Tipo de Entrega/Retirada do item
+12. Clicar em "Confirmar" para inserir no pedido
+13. Verificar os itens na aba "Itens vendidos (F5)"
+
+### Desconto no Pedido
+- O desconto máximo do vendedor é de 7%
+- Para aplicar desconto: digitar a porcentagem acima do grid e clicar em "D"
+- Se o desconto ultrapassar 7%, a supervisão precisa fazer a liberação
+- Itens com política de desconto (coloridos no grid) não são alterados pelo desconto aplicado
+
+### Informações Importantes no Pedido
+- Para ver compras anteriores do cliente: clicar em "Mix. Cliente" na parte superior
+- Para alterar endereço de entrega: clicar em "Observações e Entrega CTRL+E" → "Endereço de Entrega"
+- Para cadastrar novo endereço: clicar em "Cadastrar End. Entrega"
+- IMPORTANTE: antes de gravar, conferir no grid o tipo e data de entrega de TODOS os itens
+
+### Posição do Pedido ao Gravar
+- L — Liberado: cliente pode ir para o caixa efetuar o pagamento
+- B — Bloqueado: a supervisão deve liberar antes do pagamento
+
+### Para Salvar como Orçamento
+- Ao invés de clicar em "Gravar", pressionar F12 no teclado
+- Para envio de cotação: investigar profundamente a forma de pagamento, local de entrega para cálculo de frete e analisar a agressividade da negociação
+
+### Como Acompanhar Vendas (Rotina 1249)
+Para acompanhar metas e comissões diariamente:
+1. Abrir a Rotina 1249 — Rel. de Comissão por Venda
+2. Preencher os filtros:
+   - Filial: Todas as Filiais
+   - Período: Faturamento e o período desejado
+   - Tipo RCA: Todos
+   - RCA: Todos
+   - Origem de Venda: Todos
+   - RCA: Seu RCA (número pessoal)
+   - Calc Comissão: Por produto
+   - Tipo Relatório: 03 — Analítico por NF
+3. Marcar as flags:
+   - Imprimir Vlr. Devolução só com Estorno de Comissão
+   - Deduzir Vl. Outras Desp.
+   - Ambos Desc
+4. Clicar em "Emitir"
+- O relatório exibe todas as vendas, devoluções, comissão por venda e total do período
+
+### Como Cadastrar Profissionais/Parceiros (Rotina 4140)
+1. Abrir a Rotina 4140 — Cadastrar Profissionais
+2. Clicar em "Incluir"
+3. Preencher todos os campos com atenção
+4. Manter endereço e telefone sempre atualizados
+5. Após salvar, o profissional aparece tanto no Winthor quanto no Mobile
+
+---
+
+## PROCESSO 8: EMITINDO PEDIDOS E ORÇAMENTOS (Rotina 4117)
+
+1. Acessar a Rotina 4117 e aplicar os filtros normalmente
+2. No rodapé, próximo ao botão "Emitir", selecionar o Layout:
+   - Layout 1: formato A4 — usar APENAS para consultas ou envio via WhatsApp/E-mail
+   - Layout 2: para impressão física — SEMPRE usar o Layout 2 para imprimir
+3. Selecionar "Matricial/Laser Simplificado"
+4. Clicar em "Emitir"
+5. Na tela de impressão, selecionar a impressora "MP-4200 TH (TÉRMICA COMERCIAL)"
+6. Clicar em "Ok"
+
+**ATENÇÃO:** É proibido realizar a impressão de pedidos usando folhas A4 e Layout antigo.
+
+### Para Imprimir Orçamento
+- Layout 1: Emissão em folha A4 — exclusivo para consultas e envio via WhatsApp/E-mail
+- Layout 2: Para impressão física — usar a impressora "MP-4200 TH (TÉRMICA COMERCIAL)"
+- Sempre usar obrigatoriamente o Layout 2 para imprimir
+
+---
+
+## PROCESSO 9: TIPOS DE ENTREGA/RETIRADA
+
+### RI — Retira Imediata
+- Modalidade de retirada: o cliente leva o material em seu veículo
+- Os itens são conferidos no caixa no momento do pagamento
+- Não há necessidade de incluir produtos de RI no pedido (pelo Winthor ou Mobile) — a operadora de caixa pode fazer isso no ato do pagamento
+- Itens pequenos devem ter prioridade de venda como RI (exemplos: rejunte, espaçadores, pincéis, rolos, pequenos itens)
+- Caso o produto não esteja na prateleira mas conste no estoque, somente aí pode ser colocado para entrega
+
+### RP — Retira Posterior
+- Modalidade de retirada: o cliente leva o material em seu veículo
+- O cliente sai da loja e vai ao depósito fazer a retirada
+- Geralmente usada para itens grandes em quantidade que caibam no veículo do cliente
+- O cliente tem prazo de 10 (dez) dias corridos para fazer a retirada
+- Após esse prazo, o líder de retira tenta contato e efetua a devolução — não é possível garantir o mesmo preço quando for utilizar o crédito
+- Deixar isso claro ao cliente no momento da venda
+
+### EN — Entrega Normal
+- O cliente recebe o material a domicílio conforme agendamento em horário comercial (das 08h às 18h)
+- Atenção à disponibilidade e horário de corte da Logística
+- Verificar endereço de entrega, telefone do cliente e data de entrega de todos os itens no pedido
+
+### EF — Encomenda Futura
+- Vendemos itens que não temos a pronta entrega no estoque
+- Após a venda, o setor de compras fará a compra junto ao fornecedor
+- Verificar nas informações técnicas do produto o prazo de entrega — se não houver, perguntar ao setor de Compras
+- Para consultar possíveis alterações nos preços, perguntar no grupo de encomendas da loja
+
+### Entrega Tijolato
+- Tijolato é uma olaria parceira que efetua a entrega de tijolos, areia e pedra
+- Colocar no pedido como EN — Entrega Normal
+- Atenção especial à data: usar o ANO DE 2040 para esse tipo de material
+- Exemplo: quer entrega no dia 30/06/2024? Colocar na data de entrega 30/06/2040
+- Caso haja erro, o produto será devolvido e um novo pedido terá que ser feito, podendo gerar atrasos
+
+### Entrega Express
+- Permite agendar entrega para o mesmo dia do pedido
+- A partir de 3 horas após o faturamento (exemplo: cliente passou no caixa às 13h, entrega pode ser agendada para as 16h)
+- Ideal para clientes que precisam de entrega no período da manhã ou em horário específico
+- Usar o ANO DE 2050 na data (ao invés de 2040 do Tijolato)
+- Além disso, é obrigatório agendar pelo Formulário de Agendamento Express:
+  - Acesse: https://forms.gle/DGL91zfcJo3FwpecA
+  - Clicar na palavra "AGENDA" para verificar os horários disponíveis
+  - Preencher: nome do vendedor, código do cliente, número do pedido TV8, data e horário, telefone do cliente e observações se necessário
+  - Após enviar, aguardar cerca de 15 segundos e verificar a agenda novamente — os dados aparecerão automaticamente
+  - Quando houver mais de um pedido do mesmo cliente para o Express, preencher todos os números no campo "Número do Pedido" (ex: 8660012345, 866004567)
+  - ATENÇÃO: se esse processo não for efetuado, a entrega poderá sofrer atrasos ou não ser entregue
+
+---
+
+## PROCESSO 10: REGRAS IMPORTANTES DO SETOR
+
+### Venda de Saldão e Pontas de Estoque
+É necessário pegar a assinatura do cliente no termo de conhecimento nos seguintes casos:
+- Mostruários
+- Ponta de estoque
+- Kit portas
+- Cerâmica classe B e C
+- Itens personalizados e encomendas
+
+Esse termo deixa claro:
+- A não devolução dos produtos de encomenda
+- A não garantia de produtos comerciais (pisos B e C, saldos, pontas de estoque)
+- Esclarecer isso ao cliente para evitar problemas posteriores
+
+**Regras adicionais:**
+- Produtos de Saldão NÃO podem ser tirados como EN — Entrega Normal
+- Após o pagamento, identificar o SALDÃO com "Vendido" e o número do pedido
+
+### Venda de Produtos por Metro, Cortados/Fracionados
+- Somente APÓS o pagamento do cliente, o vendedor deve cortar o item conforme o pedido
+- É obrigatório passar novamente pelo caixa para conferência antes de liberar o cliente
+- Levar os itens cortados e o pedido para o caixa
+- Verificar se a operadora de caixa carimbou o cupom fiscal como "Mercadoria Entregue"
+
+### Venda de Tintas Manipuladas
+- A tinta deve ser fabricada na máquina APÓS o pagamento no caixa
+- Colar a etiqueta gerada na máquina na lata e levar ao caixa para conferência
+- Verificar se a operadora de caixa carimbou o cupom fiscal como "Mercadoria Entregue"
+
+### Termo de Retirada/Devolução
+- Em casos de solicitação de devolução de mercadorias que estão em obras:
+  1. Confirmar com o SAC da loja a possibilidade de devolução (dentro da política de trocas e devoluções)
+  2. Caso o cliente não possa trazer o material, preencher o termo de retirada para solicitar que a Logística faça a retirada na casa do cliente (mediante taxa conforme tabela vigente)
+  3. Preencher o termo, coletar a assinatura da supervisão e encaminhar ao setor de Logística junto à cópia do pedido
+
+### Venda com Crédito de Cliente
+- Colocar na forma de pagamento do pedido a mesma forma de pagamento que consta no Comprovante de Crédito do cliente
+- É importante que o cliente possua o Comprovante em mãos no ato da compra/digitação do pedido
+
+### Organização da Loja
+Quem participar da abertura da loja deve chegar 10 minutos antes para:
+- Ligar os computadores
+- Ligar a rádio
+- Abrir as portas
+- Tirar carrinhos e acessórios para fora da loja
+
+Responsabilidades diárias:
+- Guardar todo e qualquer produto fora do lugar (em cima de mesas ou gavetas)
+- Manter as mesas organizadas para atender clientes
+- Manter o WhatsApp aberto
+- Realizar a limpeza e organização do departamento responsável
+- Frencear e organizar produtos fora do lugar nas gôndolas, ilhas e pontas
+- Seguir o cronograma disponibilizado pelo supervisor
+
+### Atividades Suspeitas
+- Caso identifique qualquer atividade suspeita, como tentativa de roubo ou furto, comunicar IMEDIATAMENTE a liderança mais próxima, independente do setor em que o colaborador atue
+
+---
+*Fim do MIP — Vendedor de Loja — COMAB Materiais de Construção*
