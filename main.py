@@ -131,6 +131,8 @@ RESPOSTA:"""
         return {"resposta": resposta, "mip_consultado": mip_fonte}
 
     except Exception as e:
+        import traceback
+        print(f"ERRO /perguntar: {traceback.format_exc()}")
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/health")
