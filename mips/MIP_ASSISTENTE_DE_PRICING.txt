@@ -1,0 +1,446 @@
+# MIP - ASSISTENTE DE PRICING
+## COMAB Materiais de Construção
+### Código: MIP | Revisão: 01 | Data: 26/03/2026
+### Cargo: ASSISTENTE ADMINISTRATIVO (PRICING)
+### Responde à: DIRETORIA
+
+---
+
+## RESUMO DO CARGO
+
+O Assistente de Pricing é responsável por:
+- Gerenciar seu login e equipamentos corporativos
+- Elaborar e atualizar tabelas de análises de dados para tomadas de decisão
+- Auxiliar na busca e análise de concorrência e mercado
+- Atualizar preços diariamente, margens e CMV (quando necessário)
+- Realizar bloqueio e desbloqueio de produtos
+- Criar, excluir e manter políticas de desconto e preço fixo
+
+---
+
+## RESPONSABILIDADES GERAIS
+
+### Higiene e Apresentação Pessoal
+- Manter cabelo apresentável
+- Unhas feitas
+- Usar desodorante e/ou perfume
+- Não mascar chicletes
+- Calçados limpos e em ótimas condições
+- Uso obrigatório do uniforme
+
+### Horários de Trabalho
+- Cumprir rigorosamente os horários de início e finalização do expediente
+- Respeitar o horário de intervalo com máximo de 1 hora
+
+### Manual Interno de Processos
+- Buscar estar sempre atualizado e seguir o MIP e o Manual de Diretrizes Organizacionais (MDO)
+- Ao perceber necessidade de atualização do MIP ou MDO, informar ao superior hierárquico
+- Ser comprometido com os valores da COMAB
+- Ser comprometido com a Cultura do Ótimo Dia e Ótima Tarde
+- Zelar pelos patrimônios da empresa
+- Manter organização no ambiente de trabalho
+
+### Postura Profissional
+- Orientação e foco para resultados
+- Direcionamento estratégico
+- Competência em gestão de conflitos, crises e resolução de problemas
+- Competência em dar e receber feedback
+- Garantir altos níveis de satisfação dos colaboradores e clientes
+- Conhecer e estudar os produtos ofertados aos clientes
+- Acompanhar as tendências do mercado
+- Visão sistêmica e analítica do cargo
+- Liderança, planejamento e proatividade individual e em equipe
+- Reportar à diretoria geral sobre qualquer situação emergencial
+
+---
+
+## REQUISITOS DO CARGO
+
+### Requisitos Técnicos
+- Excel básico
+- Capacidade de interpretar relatórios financeiros (preço de venda, CMV, margem, markup)
+
+### Perfil Comportamental
+- Raciocínio lógico e analítico — facilidade para trabalhar com números e identificar padrões
+- Atenção a detalhes — erros em pricing podem gerar perdas financeiras
+- Curiosidade e proatividade — buscar entender não só "o como", mas "o porquê" dos números
+- Organização — lidar com muitas tabelas, preços e condições de pagamento
+- Comunicação clara — para repassar análises aos líderes comerciais de forma simples
+
+---
+
+## PROCESSO 1: RESPONSÁVEL POR LOGIN E EQUIPAMENTOS
+
+### 1a. Login no Sistema Winthor
+- Ao chegar pela manhã, ligue o computador
+- A senha de acesso é: comab@2023 ou comab@2014
+- Acesse seu usuário no Winthor, disponibilizado pelo superior imediato
+- Tudo o que é feito no seu usuário fica registrado no sistema e é de sua responsabilidade
+- É expressamente proibido emprestar sua senha a outro colaborador — passível de desligamento imediato
+
+### 1b. Celular e WhatsApp Corporativo
+- É de sua inteira responsabilidade zelar pela integridade do celular corporativo
+- Manter um padrão de atendimento COMAB nas mensagens do WhatsApp
+- Em caso de afastamento ou férias, fale com seu superior para designar um responsável
+- Deixe o celular na loja carregando de um dia para o outro
+- É proibido emprestar o celular corporativo para outros colaboradores
+- Os números são de uso exclusivo para contato e realização de pesquisas ocultas com a concorrência
+- Essas informações devem ser tratadas como estritamente confidenciais
+
+### 1c. Computador Corporativo
+- Manter o uso exclusivamente para fins da sua função
+- Manter informações pertinentes devidamente salvas e organizadas
+- Utilize com consciência
+
+---
+
+## PROCESSO 2: ELABORAR E ATUALIZAR TABELAS DE ANÁLISES DE DADOS
+
+### 2a. Relatório para Análise de Relevância de Produtos
+Este relatório avalia a relevância de um produto, podendo ser por unidades vendidas ou por valor. Quanto maior o número, maior a relevância do produto dentro da empresa, departamento, seção ou categoria.
+
+Passos:
+1. Abrir a Rotina 8074 no sistema Winthor
+2. Inserir a data do último ano
+3. Clicar em Pesquisar
+4. Exportar para Excel
+5. Transformar em tabela dinâmica
+6. Montar as visões desejadas com as informações
+
+### 2b. Relatório Comparativo de Vendas por Departamento
+Passos:
+1. Acessar a Rotina 111 no Winthor
+2. Selecionar o período do mês anterior e clicar em Filtrar
+3. Configurações do filtro:
+   - Todos os tipos de venda
+   - Deduzir: devoluções
+   - Vl. lucro / venda líquida
+   - Considerar devolução TV8
+4. Pesquisar dados de cada filial separadamente (filiais 1, 2, 4, 80 e 90)
+5. Exportar para Excel e alimentar uma tabela dinâmica com as seguintes informações:
+   - Departamento
+   - Filial
+   - Período
+   - Quantidade de clientes positivados
+   - Quantidade de NFs
+   - Valor de venda líquida
+   - Valor de lucro
+   - % de Lucro
+   - Quantidade de mix vendido
+6. Salvar no endereço: C:\Users\Compras\Documents\Pricing
+7. Atualizar os gráficos dinâmicos
+
+### Análise de Elasticidade (Mensal)
+- Mensalmente, atualizar tabelas de Análise de Elasticidade dos produtos, principalmente nos itens de percepção
+- Essa análise deve ser feita no início do mês, antes de alterar os novos preços
+- Registrar a que preço foram vendidos os itens de percepção durante o mês
+- Na Rotina 201, registrar o preço de tabela dos itens de percepção
+- Abrir a Rotina 111 e coletar os dados de: Giro e Lucratividade
+- Objetivo: analisar o desempenho das vendas após alteração de preços
+- Analisar os dados junto ao mês passado para entender se com uma alteração de preço, a venda aumentou ou diminuiu
+- A planilha já possui fórmula da variação de giro e variação de preço entre 2 meses
+- Local da tabela original: \\192.168.1.252\Corp\Compras\Pricing\Análise de Departamento.xlsx
+
+---
+
+## PROCESSO 3: AUXILIAR NA BUSCA E ANÁLISES DE CONCORRÊNCIA E MERCADO
+
+### 3a. Planilha de Preços de Concorrentes
+- Entrar em contato com os concorrentes pré-definidos e realizar cotações dos itens solicitados
+- Os produtos de percepção estão separados em pesquisa: diária, semanal, quinzenal ou mensal
+- Atenção: verificar se os valores são para pagamento à vista ou a prazo, quais condições a concorrência pratica, valores de frete e outras informações relevantes
+- Após preencher a tabela, compartilhar com os gestores comerciais e demais interessados (pode ser enviado no grupo específico)
+- Enviar os orçamentos escritos que as lojas concorrentes enviaram
+
+### 3b. Lançamento dos Preços no Winthor
+Passos:
+1. Abrir a Rotina 283
+2. Preencher:
+   - Concorrente
+   - Cliente: 1
+   - Plano de pagamento: 1
+   - Região: 1
+   - RCA: 18
+   - Código do produto
+   - Preço praticado pelo concorrente
+3. Clicar em Gravar
+- Observação: manter os preços atualizados (principalmente os produtos de percepção), pois os vendedores conseguem ver essa informação
+
+---
+
+## PROCESSO 4: ATUALIZAR PREÇOS DIARIAMENTE, MARGENS E CMV
+
+### 4a. Precificação — Rotina 201
+A precificação do produto é realizada através da Rotina 201 no sistema Winthor.
+
+#### Para precificar um item específico (código já conhecido):
+1. Preencher na Rotina 201:
+   - Filial: 1
+   - Período: em branco
+   - Código do produto
+2. Clicar em Pesquisar
+
+#### Para precificar item recém chegado:
+1. Preencher na Rotina 201:
+   - Filial: 1
+   - Comprador
+   - Data de entrada da mercadoria
+   - Data que deseja realizar a pesquisa
+2. Uma tela se abrirá com os itens a serem precificados
+
+#### Campos importantes da Rotina 201:
+- Preço Sugerido: calculado automaticamente com base na margem ideal pré-cadastrada. É a soma de: custo do produto + impostos + frete + comissão + margem de lucro ideal
+- Preço Futuro: campo onde você inserirá o valor que pretende vender após análise
+
+### Definição de Preços
+Para definir os preços, pesquisar como está o mercado através de:
+- Sites e Google Shopping
+- WhatsApp
+- Ligações
+- Grupo "Preço da Concorrência"
+- Menor Preço Paraná
+
+Após considerar os preços da concorrência, tomar uma decisão:
+- Se nosso preço for melhor: considerar subir para ganhar mais margem
+- Se nosso preço estiver fora do mercado: analisar a possibilidade de cobrir o preço da concorrência ou se aproximar o máximo possível (especialmente se for item atrativo)
+- Comunicar o setor de Compras sobre a dificuldade de precificar, para receber orientações dos fornecedores
+- Utilizar a tabela de pricing para auxiliar na tomada de decisão
+- Se for produto relevante em vendas ou valor: deve ter preço competitivo. Caso contrário, não há necessidade de brigar por preço (pode-se ganhar mais margem)
+- Realizar todo o processo para as filiais 1, 2, 3 e 90
+
+### Simulando Margem e Alterando Preços
+1. Na tela da Rotina 201, clicar sobre o produto sendo cotado/precificado
+2. Na aba "Pr. futuro", clicar com o botão direito do mouse
+3. Selecionar a opção "Simulação de margem real"
+4. Uma tela se abrirá — mudar a opção para "Preço customizado"
+5. Digitar no campo ao lado o melhor preço dos concorrentes para ver a margem real
+6. A margem deve ficar acima do mínimo de 16% para cobrir os custos internos operacionais (transporte, armazenamento, embalagens, mão de obra, etc.)
+7. Caso não consiga cobrir o preço do concorrente, tentar chegar mais perto possível através de política de desconto
+8. Em caso de dúvidas, consultar o gestor
+
+### Como Funciona o Preço Fixo e o Preço Variável
+
+#### Itens com Preço Fixo (Flag de Preço Fixo ativada)
+- O valor é o mesmo em qualquer forma de pagamento
+- Não se coloca preços com margens baixas ou preço menor no campo "Preço futuro" para evitar cálculo de juros
+- Exemplo: o cliente paga igual à vista ou parcelado
+
+#### Itens com Preço Variável (sem Flag de Preço Fixo)
+- São produtos de maior importância ou visibilidade no mercado
+- Define-se um preço competitivo e o sistema aplica os juros automaticamente conforme o prazo de pagamento
+- Quanto maior o número de parcelas, maior o valor final do produto
+
+#### Preço Mínimo
+- Funciona como uma trava para que o produto não seja vendido por valor menor que o definido
+- Cadastrado nos itens que não têm preço fixo
+- Exemplo: Cimento Votoran R$33,99 (retira) e R$35,99 (entrega), preço mínimo R$32,90 — não será possível vender por menos de R$32,90
+- Para cadastrar ou alterar: inserir o preço na aba "preço mínimo tabela" na Rotina 201
+
+### 4b. Ajustes de Custo (CMV)
+Em alguns produtos é necessário alterar o custo (com autorização dos gestores):
+
+#### Tintas na Máquina (Manipuladas)
+1. Abrir a Rotina 1103
+2. Inserir filial, código da tinta
+3. Preencher os campos com "0,01"
+
+#### Cerâmicas e Porcelanatos B ou C
+Regras de acréscimo:
+- Cerâmicas pequenos formatos (41x41 / 43x43 / 45x45): acrescentar 15%
+- Cerâmicas grandes formatos (55x55 / 74x74 / 86x86): acrescentar 10%
+- Porcelanatos: acrescentar 5%
+- Custo + %: campos em amarelo na planilha
+- Resultado x 90,75%: campos em azul na planilha
+- Aplicar nas filiais 2, 4 e 80
+
+#### Pinus
+1. Abrir a Rotina 1103
+2. Inserir filial 90 e código do produto
+3. Copiar o valor "base cálculo ICMS última entrada" (campo em vermelho)
+4. Inserir nos campos em amarelo e confirmar
+
+---
+
+## PROCESSO 5: BLOQUEIO E DESBLOQUEIO DE PRODUTOS
+
+Após realizar a precificação, desbloquear as mercadorias para venda:
+1. Abrir a Rotina 266
+2. Inserir:
+   - Filial
+   - Código do fornecedor
+   - Selecionar "produtos bloqueados"
+3. Clicar em Pesquisar
+4. Selecionar "desbloquear todos"
+5. Motivo desbloqueio: 50
+6. Clicar em "Confirmar"
+- Observação: assim que concluir, comunicar o responsável pelo estoque quais marcas foram desbloqueadas
+
+---
+
+## PROCESSO 6: POLÍTICAS DE DESCONTO E PREÇO FIXO
+
+### Tipos de Políticas de Preço Fixo
+
+- **Tipo 41 — Campanha de Marketing**: política criada para produtos divulgados em campanhas externas de marketing
+- **Tipo 1 — No Moving**: políticas para produtos sem giro, criadas exclusivamente para aumentar o giro
+- **Tipo 21 — Promocional do Mês**: produtos em ponta de gôndolas divulgados internamente com cartazes promocionais, sem necessariamente campanha de marketing
+- **Política Exclusiva por Loja**: promocionais feitos exclusivamente para uma determinada loja ou filial
+  - Tipo 25: Exclusivo loja centro
+  - Tipo 23: Exclusivo loja Tatuquara
+  - Tipo 24: Exclusivo televendas
+  - Observação: inserir o código da filial no layout para criar política exclusiva de loja
+- **Tipo 22 — Combate à Concorrência**: promocional exclusivo para combater a concorrência
+- **Tipo 61 — Etiqueta Errada / Tipo 42 — Erro Splash**: políticas de desconto em casos de erro de etiqueta ou splash. Acompanhar o grupo "política de preço / vendas"
+
+### Como Criar Política (em Lote)
+1. Abrir a planilha "layout - políticas" (localizada em: C:\Users\Compras\Documents\Pricing)
+2. Preencher as informações:
+   - Código descrição (tipo de política)
+   - Código do produto
+   - Região: 1 = Consumidor PR
+   - Plano de pagamento (1, 20, 23, 26, 29, 30, 40, 900) — usando os devidos acréscimos de taxa
+   - Início da vigência
+   - Fim da vigência
+   - Usar auto preenchimento nas demais colunas com informações fixas
+3. Salvar o arquivo como "Texto separado por tabulações"
+4. Abrir o documento e excluir a primeira e última linha para a rotina conseguir ler o arquivo
+5. Abrir a Rotina 357
+6. Clicar em "Importar"
+7. Localizar o arquivo
+8. Selecionar "layout 2.0" e clicar em "Ler arquivo"
+9. Confirmar
+- Observação: após a importação, verificar em todas as linhas se as políticas foram gravadas corretamente. Caso já haja política ativa, excluir a antiga e subir novamente
+
+### Criar Política Única (ex: splash errado / etiqueta errada)
+Para criar política de forma individual para um produto passar no caixa:
+1. Abrir a Rotina 357 e selecionar "Incluir"
+2. Preencher:
+   - Filial
+   - Código descrição
+   - Produto
+   - Cliente
+   - Região
+   - Plano de pagamento (se for à prazo, considerar juros)
+   - Vigência
+   - Preço fixo
+3. Clicar em "Gravar"
+
+### Como Excluir Políticas
+1. Abrir a Rotina 357
+2. Preencher os campos:
+   - Campo: "produtos"
+   - Tipo do filtro: "contido"
+   - Produtos: inserir código do produto
+3. Clicar em Pesquisar
+4. Selecionar todas as políticas e clicar em "Mover para log"
+
+### Tabela de Juros para Pagamento à Prazo
+Criar as políticas nas seguintes formas de pagamento com seus respectivos juros:
+- Plano 1: À vista (sem juros)
+- Plano 20: 3x no cartão (4,71%) — sujeito à alteração
+- Plano 23: 6x no cartão (7,53%) — sujeito à alteração
+- Plano 26: 9x no cartão (9,89%) — sujeito à alteração
+- Plano 29: 12x no cartão (13,60%) — sujeito à alteração
+- Plano 30: 15x no cartão (17,65%) — sujeito à alteração
+- Plano 40: 18x no cartão (21,95%) — sujeito à alteração
+- Plano 900: E-commerce — preço à vista — sujeito à alteração
+
+### Políticas de Retira
+
+#### Como Criar Política de Retira
+1. Abrir a Rotina 561 ou 4161 e clicar em "Incluir"
+2. Na aba "Informações Comuns", preencher:
+   - Descrição
+   - Filial (inserir apenas se for exclusivo para uma filial; em branco aplica a todas)
+   - Vigência
+   - Tipo de desconto: Comercial
+   - Desconto: inserir % de desconto do produto
+   - Comissão: inserir comissão
+   - Marcar a flag "Aplicar desconto automaticamente"
+   - Tipo de entrega call center: "retira"
+   - Desconto para clientes simples: "aplica desconto a todos os clientes"
+3. Na aba "Informações do Cliente", preencher:
+   - Região: 1 - Consumidor PR
+   - Plano de pagamento: 1 - À vista
+4. Na aba "Informações do Produto", preencher:
+   - Produto: inserir código do produto
+5. Na aba "Informações MOD-041", preencher:
+   - Tipo de entrega: RI - Retira Imediata ou RP - Retira Posterior
+   - Tipo de desconto: "nos itens"
+6. Clicar em Gravar
+- Observação: gravar primeiro com um dos tipos de retira (ex: RI), depois incluir nova política com as mesmas informações mas com o outro tipo de retira (ex: RP)
+
+#### Como Alterar Política Já Existente
+1. Na Rotina 561/4161, limpar a data de vigência
+2. Inserir código do produto
+3. Selecionar "apenas campanhas vigentes" e pesquisar
+4. Clicar 2 vezes na política e editar as informações desejadas
+
+#### Como Calcular o Desconto para Inserir na Política
+1. Abrir a Rotina 8067
+2. Preencher o preço a ser aplicado e o código do produto
+3. Clicar em Pesquisar
+4. O sistema calculará o desconto e a comissão a serem aplicados na Rotina 561
+- Observação: arredondar o desconto (ex: desconto de 5,557% deve ser gravado como 5,56%)
+
+### Excluir Políticas com Estoque Zerado (Mensal)
+Mensalmente, fazer levantamento e identificar produtos com estoque zerado e excluir suas políticas:
+1. Abrir a Rotina 8046
+2. Filtrar estoques = 0 em todas as filiais
+3. Pesquisar pelo código do produto na Rotina 357
+4. Excluir a política
+- Objetivo: limpar a base de promocionais que não servem mais para nenhuma finalidade
+
+---
+
+## ANÁLISE DE POLÍTICAS PROMOCIONAIS DO MÊS
+
+### Objetivo
+Avaliar o desempenho dos produtos com política promocional e decidir pela continuidade, alteração ou retirada da promoção.
+
+### Quando Executar
+Sempre 10 dias antes do fechamento do mês.
+
+### Etapas do Processo
+1. Abrir a Rotina 8046 no sistema
+2. No campo "Motivo", filtrar por "Promocional do mês"
+3. Para cada item listado, comparar:
+   - Vendas 30 dias antes da política
+   - Vendas durante a política (coluna "venda política")
+4. Registrar a comparação na planilha Excel já existente (colunas: "vendas 30 dias antes" e "venda política")
+5. Identificar o resultado:
+   - Melhorou vendas
+   - Manteve vendas
+   - Caiu vendas
+6. Levar o resultado para Compras e Merchandising para decisão final:
+   - Manter promoção
+   - Encerrar promoção
+   - Incluir novos produtos na próxima política
+
+### Responsáveis
+- Pricing: análise e registro
+- Compras: decisão de manter/excluir
+- Merchandising: execução da exposição e comunicação
+
+---
+
+## PRECIFICAÇÃO PARA OUTROS ESTADOS
+
+Para que o setor comercial consiga realizar vendas do tipo TV1 (nota fiscal antecipada), o Pricing precisa precificar o produto naquela região e habilitar a venda externa. Ambas as funções estão disponíveis na Rotina 201.
+
+### Passos para Precificação em Outro Estado (exemplo: Santa Catarina)
+1. Abrir a Rotina 201
+2. Pesquisar o produto (ex: produto 602)
+3. Precificar o produto para a região solicitada (ex: Santa Catarina)
+4. Aplicar para venda externa:
+   - As opções devem estar configuradas corretamente para venda externa
+   - Clicar em "Processar" — os preços serão aplicados para venda externa, liberando assim a venda do produto na rotina 4116 no tipo de venda 1
+
+### Entrega em Outro Estado
+- Em casos em que o produto for entregue em outro estado, existe a necessidade de aumentar o valor em 6% no estado de destino antes de liberar para venda externa
+- Exemplo: produto com valor R$109,90 + 6% = R$113,31
+- Ajustar o valor na linha da Região solicitada na Rotina 201
+- Aplicar os preços para venda externa para que o produto apareça para o vendedor na Rotina 4116
+
+---
+*Fim do MIP — Assistente de Pricing — COMAB Materiais de Construção*
