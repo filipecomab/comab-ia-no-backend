@@ -135,7 +135,7 @@ RESPOSTA:"""
         print(f"ERRO /perguntar: {traceback.format_exc()}")
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/health")
+@app.api_route("/health", methods=["GET", "HEAD"])
 async def health():
     arquivos = list(dict.fromkeys([c["arquivo"] for c in chunks_memoria]))
     return {
