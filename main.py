@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
@@ -210,7 +210,7 @@ async def admin_page():
 </html>"""
 
 @app.post("/upload-mips")
-async def upload_mips(senha: str = None, arquivos: list[UploadFile] = File(...)):
+async def upload_mips(senha: str = Form(...), arquivos: list[UploadFile] = File(...)):
     if senha != REINDEX_PASSWORD:
         raise HTTPException(status_code=401, detail="Senha incorreta")
 
